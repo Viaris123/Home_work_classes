@@ -19,7 +19,7 @@ class Cage(classes.Cage):
 
     def get_animals(self) -> list:
 
-        return list(map(lambda a: a.name, self.animals_list))
+        return self.animals_list
 
     def free_space(self) -> int:
 
